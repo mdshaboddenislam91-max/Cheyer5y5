@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Work Permit Verification</title>
+    <style>
+        body { font-family: sans-serif; text-align: center; background-color: #f0f0f0; }
+        .header { background: #004a99; color: white; padding: 20px; }
+        .grid { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; padding: 20px; }
+        .box { background: white; border: 2px solid #ddd; padding: 15px; width: 150px; border-radius: 10px; cursor: pointer; }
+        .box img { width: 100%; border-radius: 5px; }
+        .box:hover { border-color: #004a99; transform: scale(1.05); transition: 0.3s; }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h1>Verify Your Offer Letter</h1>
+</div>
+
+<h3>SELECT YOUR COUNTRY</h3>
+
+<div class="grid">
+    <div class="box" onclick="location.href='italy.html'">
+        <img src="https://flagcdn.com/w320/it.png">
+        <p>ITALY</p>
+    </div>
+
+    <div class="box" onclick="location.href='ca.html'">
+        <img src="https://flagcdn.com/w320/ca.png">
+        <p>CANADA</p>
+    </div>
+
+    <div class="box" onclick="location.href='us.html'">
+        <img src="https://flagcdn.com/w320/us.png">
+        <p>USA</p>
+    </div>
+</div>
+
+</body>
+</html>
